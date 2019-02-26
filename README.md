@@ -31,6 +31,14 @@ If you found this code useful in your research, please cite:
 }
 </code></pre>
 
+<pre><code>@article{Zhang:2019:Arxiv,
+  author    = {Zhang, Jiajun and Zhou, Long and Zhao, Yang and Zong, Chengqing},
+  title     = {Synchronous Bidirectional Inference for Neural Sequence Generation},
+  journal   = {arXiv preprint arXiv:1902.08955},
+  year      = {2019},
+}
+</code></pre>
+
 Contact
 ---
 If you have questions, suggestions and bug reports, please email wszlong@gmail.com or long.zhou@nlpr.ia.ac.cn.

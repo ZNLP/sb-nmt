@@ -427,12 +427,12 @@ def get_input_fn(mode,
             # Ensure inputs and targets are proper rank.
             while len(feature_map["inputs"].get_shape()) != 4:
                 feature_map["inputs"] = tf.expand_dims(feature_map["inputs"], axis=-1)
-            while len(feature_map["targets"].get_shape()) != 4:
-                feature_map["targets"] = tf.expand_dims(feature_map["targets"], axis=-1)
+            while len(feature_map["targets_l2r"].get_shape()) != 4:
+                feature_map["targets_l2r"] = tf.expand_dims(feature_map["targets_l2r"], axis=-1)
             while len(feature_map["targets_r2l"].get_shape()) != 4:
                 feature_map["targets_r2l"] = tf.expand_dims(feature_map["targets_r2l"], axis=-1)
 
-            batches.append((feature_map["inputs"], feature_map["targets"], feature_map["targets_r2l"] ))
+            batches.append((feature_map["inputs"], feature_map["targets_l2r"], feature_map["targets_r2l"] ))
 
         # We choose which problem to process.
         loss_moving_avgs = []  # Need loss moving averages for that.

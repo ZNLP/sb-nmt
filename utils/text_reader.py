@@ -164,8 +164,8 @@ def input_pipeline(data_file_pattern, capacity, mode):
 
     data_fields = {
         "inputs": tf.VarLenFeature(tf.int64),
-        #"targets_l2r": tf.VarLenFeature(tf.int64)}
-        "targets": tf.VarLenFeature(tf.int64),
+        "targets_l2r": tf.VarLenFeature(tf.int64),
+        #"targets": tf.VarLenFeature(tf.int64),
         "targets_r2l": tf.VarLenFeature(tf.int64)}
     data_items_to_decoders = None
 

@@ -4,7 +4,7 @@ Synchronous Bidirectional Neural Machine Translation
 
 This is the official codebase for the following papers, implemented in tensorflow:
 
-(1) Long Zhou, Jiajun Zhang, Chengqing Zong. **Synchronous Bidirectional Nueral Machine Translaiton.** In Transactions of ACL 2019.
+(1) Long Zhou, Jiajun Zhang, Chengqing Zong. **Synchronous Bidirectional Nueral Machine Translaiton.** In Transactions of ACL 2019. [[PDF](https://arxiv.org/abs/1905.04847)]
 
 (2) Jiajun Zhang, Long Zhou, Yang Zhao, Chengqing Zong. **Synchronous Bidirectional Inference for Neural Sequence Generation.** [arXiv preprint arXiv:1902.08955](https://arxiv.org/abs/1902.08955).
 
